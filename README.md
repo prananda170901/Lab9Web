@@ -65,6 +65,9 @@
         <p>Ini adalah bagian content dari halaman.</p>
     </div>
 <?php require('footer.php'); ?>
-![p](img/home.png)
-![p](img/about.png)
 ```
+
+## 5. Output
+
+![p](img/about.png)
+![p](img/home.png)
