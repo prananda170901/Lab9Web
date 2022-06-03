@@ -71,3 +71,38 @@
 
 ![p](img/about.png)
 ![p](img/home.png)
+
+# Pertanyaan dan Tugas
+
+<br>Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database, sehingga setiap halamannya memiliki template tampilan yang sama.
+
+## Berikut struktur direktori yang saya buat
+
+```
+lab8_php_database
+├── config
+│   ├── hapus.php
+│   ├── koneksi.php
+│   ├── tambah.php
+│   └── ubah.php
+├── layouts
+│   ├── footer.php
+│   ├── head-static.php
+│   ├── header.php
+│   ├── main.php
+│   ├── tambah.php
+│   └── ubah.php
+├── static
+│   ├── css
+│   │   └── style.css
+│   └── img
+├── index.php
+├── tambah.php
+└── ubah.php
+```
+
+## config
+
+<br>Dalam folder tersebut menyimpan file khusus php yang nanti akan dieksekusi
+
+koneksi.php
