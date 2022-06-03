@@ -35,7 +35,35 @@
 ## 2. Buat file baru dengan nama footer.php
 
 ```
+    <footer>
+        <p>&copy; 2021, Informatika, Universitas Pelita Bangsa</p>
+    </footer>
+</div>
+</body>
+</html>
+```
 
+## 3. Buat file dengan nama home.php
+
+```
+<?php require('header.php); ?>
+
+<div class="content">
+    <h2>Ini Halaman Home</h2>
+<p>Ini adalah bagian content dari halaman.</p>
+</div>
+
+<?php require('footer.php'); ?>
+```
+
+## 4. Buat file baru dengan nama about.php
+```
+<?php require('header.php'); ?>
+    <div class="content">
+        <h2>Ini Halaman About</h2>
+        <p>Ini adalah bagian content dari halaman.</p>
+    </div>
+<?php require('footer.php'); ?>
 ![p](img/home.png)
 ![p](img/about.png)
 ```
